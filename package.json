@@ -1,0 +1,19 @@
+{
+  "name": "searchprojectdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gulp": "^3.9.1",
+    "jquery": "^3.4.1",
+    "semantic-ui": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass css/style.scss css/style-min.css --output-style compressed",
+    "cssw": "npm run sass && npm run sass -- -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

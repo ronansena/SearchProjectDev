@@ -1,0 +1,32 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 15px;
+  font-family: 'Open Sans', sans-serif, arial;
+  font-size: 14px;  
+  font-weight: bold; 
+  line-height: 3rem; 
+  overflow: scroll;
+}
+
+.outerLogin {   
+  border: 2px  ;
+  border-top-width: 10PX; 
+  border-left-width: 10PX; 
+  border-bottom-width: 5PX; 
+  border-right-width: 5PX; 
+  padding: 30px;
+  width: 400px; 
+  height: 400px; 
+  left: 50%; 
+  margin: -130px 0 0 -180px;  
+  position: absolute; 
+  top: 40%;  
+}
+
+
+
+
+
+
+
